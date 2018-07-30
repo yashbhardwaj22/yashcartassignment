@@ -1,0 +1,81 @@
+.header {
+    height: 20%;
+    background-color: rgb(175, 243, 252);
+}
+
+
+.logo {
+    float: left;
+    width: 15%;
+    height: 70%;
+    margin: 1%;
+}
+
+.logo img {
+    width: 70%;
+    height: auto;
+}
+
+.left {
+    float: left;
+    width: 69%;
+    min-height: 70%;
+    border-right: solid 1px;
+    background-color: bisque;
+}
+
+.right {
+    float: right;
+    width: 30%;
+    min-height: 70%;
+    background-color: rgb(206, 188, 209);
+}
+#iField{
+    margin-top: 10%;
+
+
+}
+#reset{
+    margin-left: 20%;
+    align:right;
+    margin-bottom: -20%
+}
+.search{
+     
+    margin-top: -8%;
+   
+}
+.title_name{
+    margin-left: 200px;
+    float: left;
+    font-size: 180%;
+    
+}
+table, th, td {
+    border: 1px solid black;
+ }
+button,#reset {
+    background-color: rgb(192, 226, 223); 
+    border: none;
+    color: rgb(92, 80, 80);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+    }
+button:hover {
+        background-color: rgb(241, 238, 235); 
+        color: rgb(43, 38, 38);
+    }
+    
